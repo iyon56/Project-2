@@ -1,0 +1,97 @@
+.container{
+	width: 900px;
+	margin: auto;
+	background-color: #eaeaea;
+	box-sizing: border-box;
+}
+
+header{
+	background-color: skyblue;
+	overflow: auto;
+}
+
+header img{
+	padding: 10px;
+	float: left;
+}
+
+header p{
+color: black;
+font-size: 20px;
+padding-top: 20px;
+}
+
+nav{
+	background-color: darkcyan;
+	height: 30px;
+}
+
+nav a{
+padding: 10px;
+text-decoration: none;
+display: inline-block;
+}
+
+nav a : hover{
+background-color: black;
+}
+
+marquee {
+	blacground-color: orange;
+	color: white;
+	padding: 10px;
+	margin-top:-5px;
+}
+
+main {
+	width: 600px;
+	float: left;
+}
+
+main h2 {
+	text-align: center;
+	text-decoration: underline;	
+}
+
+main p {
+	font: 15px;
+	text-indent: 30px;
+	text-align: justify;
+	padding: 0 10px;
+	line-height: 20px;
+}
+
+aside {
+	width: 300px;
+	float: right;
+}
+
+aside img {
+	width: 60px;
+	height: 80px;
+	padding-left: 115px;
+	padding-top: 35px;
+}
+
+h3, aside p {
+	text-align: center;
+}
+
+aside .sambutan {
+	text-align: justify;
+	text-indent: 30px;
+	font-size: 14px;
+	padding-right: 10px;
+	line-height: 20px;
+}
+
+footer {
+	background-color: orange;
+	clear: both;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
